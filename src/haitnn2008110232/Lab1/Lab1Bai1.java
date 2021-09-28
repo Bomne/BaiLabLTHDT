@@ -1,20 +1,22 @@
+package haitnn2008110232.Lab1;
 
 import java.util.Scanner;
 
 public class Lab1Bai1 {
     public static void main(String[] args){
+        String hoten;
+        Float diem;
 
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Họ và tên: ");
-        String hoten = scanner.nextLine();
+         hoten = scanner.nextLine();
 
         System.out.print("Điểm số: ");
-        Double diem = scanner.nextDouble();
+         diem = scanner.nextFloat();
 
         System.out.println("=====================");
 
-        System.out.printf("%s: %.1f điểm", hoten, diem);
+        System.out.printf("Họ tên: "+hoten+"  được "+diem+"  điểm");
     }
 }
 
