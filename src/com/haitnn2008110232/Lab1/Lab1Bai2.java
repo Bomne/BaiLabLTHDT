@@ -1,4 +1,4 @@
-package haitnn2008110232.Lab1;
+package com.haitnn2008110232.Lab1;
 import java.util.Scanner;
 public class Lab1Bai2{
     public static void main (String[] args)
