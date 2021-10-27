@@ -1,21 +1,19 @@
 package test;
 
 public class Dog {
-    String breed;
-    String color;
-    String name;
-    int age;
-    int size;
-    Dog(String b, String c, String n, int a, int s){
-        breed = b;
-        color = c;
-        name = n;
-        age = a;
-        size = s;
+    protected void makeNoise(){
+        System.out.println("Gau gau!!!");
     }
-    public static void sua(){
-        
+    protected void eat(){
+        System.out.println("Mlem...Mlemm");
     }
+    protected void roam(){
+        System.out.println("in home...");
+    }
+    void Battrom(){
+        System.out.println("An trom ha may");
+    }
+
         
 
 }
