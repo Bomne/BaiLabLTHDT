@@ -1,4 +1,4 @@
-package com.haitnn2008110232.tuan7.Animal;
+package com.haitnn2008110232.tuan7.animal;
 import java.util.Scanner;
 public class TestDrive {
     public static void main(String[] args){
