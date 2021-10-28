@@ -41,6 +41,7 @@ public class TestDrive {
 
 
             }while(luachon1 <=2 && luachon1 > 0);
+            break;
             case 2:
             int luachon2;
             do{
@@ -69,6 +70,7 @@ public class TestDrive {
 
 
             }while(luachon2 <=2 && luachon2 > 0);
+            break;
         }
     }while(luachon <=2 && luachon > 0);
     
